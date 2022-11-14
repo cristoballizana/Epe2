@@ -1,0 +1,112 @@
+
+
+
+
+#contenedor {
+    
+margin: 100px auto;
+text-align: center;
+align-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+width: 600px;
+height: 700px;
+background-color: #24303c;
+border-radius: 20px;
+}
+
+h4{
+
+display: flex;
+text-align: right;
+margin-top: 80px;
+font-size: 30px;
+}
+
+
+form{
+
+width: 500px;
+padding: 10px;
+
+
+}
+
+.controles{
+
+
+
+background-color: transparent;
+padding: 10px;
+border-color: white;
+width: 96%;
+margin-bottom: 20px;
+border-radius: 10px;
+border-style: solid;
+transition: all .80s;
+color:white;
+}
+
+
+
+.botones{margin-top: 30px;
+width: 60%;
+height: 40px;
+border-radius: 10px;
+background-color: white;
+border: 0px;
+transition: all .80s;
+
+}
+
+
+.botones:hover{
+
+
+background-color: blue;
+color: white;
+transition: all .80s;
+width: 30%;
+cursor: pointer;
+}
+
+
+
+.controles:hover{
+
+
+border-color: blue;
+color: white;
+transition: all .80s;
+   
+}
+
+
+.areaControles:focus {
+
+
+border-color: blue;
+color: white;
+transition: all .80s;
+height: 20%;
+        
+}
+
+
+
+
+.areaControles{
+
+ background-color: transparent;
+padding: 10px;
+border-color: white;
+width: 96%;
+margin-bottom: 20px;
+border-radius: 10px;
+border-style: solid;
+height: 20px;
+transition: all .80s;
+color:white;
+}
+
